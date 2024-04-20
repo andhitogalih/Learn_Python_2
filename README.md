@@ -15,7 +15,7 @@ This repository is designed to make learning Python for students easy and enjoya
 ## Numpy
 NumPy (Numerical Python) is a Python library that focuses on scientific computing. NumPy has the ability to create N-dimensional array objects, which are similar to lists in Python. The advantage of NumPy arrays compared to lists in Python is that they consume less memory and run time faster. NumPy also makes it easier for us in Linear Algebra, especially operations on Vectors (1-d arrays) and Matrix (2-d arrays).
 
-![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/Pandasseries.png) 
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Numpy.png) 
 
 ### Dimension
 Dimensions of an array in NumPy are also called the Rank of an Array. Here, we will see how to check how many dimensions an array has used with the numpy.ndarray.ndim. With that, we will also see some examples of creating 0D, 1D, 2D, and 3D arrays:
@@ -25,7 +25,7 @@ Dimensions of an array in NumPy are also called the Rank of an Array. Here, we w
 * Create a 2-Dimensional NumPy array and check the dimensions
 * Create a 3-Dimensional NumPy array and check the dimensions
   
-![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/Pandasseries.png) 
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Dimention.png) 
 
 ## Pandas
 Pandas (Python for Data Analysis) is a Python library that focuses on data analysis processes such as data manipulation, data preparation, and data cleaning. Pandas provides high-level data structures and functions to make working with structured/tabular data faster, easier, and expressive.
@@ -53,97 +53,100 @@ implicit data slicing retrieves a subset of data with reference to an implicitly
 
 #### Loc &Iloc
 Loc is short for location. As the name implies, it is used to select data at a specific location only.
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Loc.png)
 
 The iloc property gets, or sets, the value(s) of the specified indexes. Specify both row and column with an index.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/1cc305e2-a131-40ed-b70f-8178661473e3)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Iloc.png)
  
 ## DataFrame
-DataFrame is a collection of series with at least 1 series. A DataFrame in Python is a two-dimensional, size-mutable, and potentially heterogeneous tabular data structure with labeled axes (rows and columns). It can be thought of as a table with rows and columns. For example, DataFrame is built by 3 series.
+The pandas DataFrame is a structure that contains two-dimensional data and its corresponding labels.For example, DataFrame is built by 2 series.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/92debff9-c08b-4cd3-816e-6f1631d22559)
-
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/d1ac9153-9e2e-4df6-8a35-01214b4aa63d)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ## Load Data CSV in Pandas
-To import a CSV file in Python, you can use the Pandas library, which provides a simple and efficient way to work with structured data. Make sure CSV data that has been uploaded in the same folder.
+The Pandas module in Python offers a quick and easy method for handling structured data, and it can be used to import a CSV file. Verify that the uploaded CSV data is in the same folder.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/e56d5617-c8d8-4dce-8ab4-88e960aa6d49)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 Given the example of importing data 'Titanic.csv' with the “pd.read_csv()” function.
 
 ### Head
-•	viewing from top data
-•	can be customized
-•	head by default is top 5
+• looking at the most recent data
+• Head is the top 5 by default
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/74b7928a-a39c-48ad-9be3-249301c6ff6b)
-
-### Tail
-•	tail()returns a specified number of last rows.
-•	tail()returns the last 5 rows if a number is not specified.
-
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/ed13695e-e9f0-45f6-8632-e1a697bc24ab)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
  
 ### Info
-•	info() method prints information about the DataFrame.
-•	The information contains the number of columns, column labels, column data types, memory usage, range index, and the number of cells in each column (non-null values).
+• The info() method prints information from the DataFrame. The information includes the number of columns, column headers, column data types, memory usage, range index, and number of cells in each column (non-zero values).
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/b8284560-3819-48df-bb00-23638f4b1459)
 
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
+### Tail
+• A given number of last rows is returned by tail(). In the absence of a number, tail() retrieves the previous five rows.
+
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 ### Shape
-shape is the number of rows and columns of the DataFrame.
+Shape is the number of columns and columns of the DataFrame.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/4483f470-6e89-4d1e-886f-10fcbc028ceb)
-
-891 is the number of rows, 12 is the number of columns
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Columns
-columns returns the label of each column in the DataFrame.
+Columns returns the name of each column within the DataFrame.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/59448bfc-7aba-4e2a-bac7-402340bf39ba)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Index
-•	The index returns the index information of the DataFrame.
-•	The index information contains the labels of the rows. If the rows have NOT named indexes, the index property returns a RangeIndex object with the start, stop, and step values.
+•	The record returns the record data of the DataFrame. The file data contains the names of the columns. In case the lines have NOT named records, the record property returns a RangeIndex protest with the begin, halt, and step values.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/5ede1833-092a-4e90-b547-f375c213de2e)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Sum
-•	Returns the sum of the values in the specified axis
-•	The sum() method adds all values in each column and returns the sum for each column.
-•	By specifying the column axis (axis='columns'), the sum() method searches column-wise and returns the sum of each row.
+•	 Returns the entirety of the values within the indicated pivot. By indicating the column hub (axis='columns'), the entirety() strategy looks column-wise and returns the whole of each push.
+
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Isnull
-Isnull is used to find NULL values.
+Isnull is utilized to discover Invalid values.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/3a80720e-5cab-4ac0-a8a0-0b6b6a1c30f0)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Notnull
-Notnull is used to find values that are NOT NULL.
+Notnull is utilized to discover values that are NOT Invalid.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/4222a0a8-f7ad-4e1e-952c-278475dfa8e1)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Describe
-Returns a description summary for each column in the DataFrame
+Returns a description summary for each column within the DataFrame
 
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 ### Mean
-•	Return the mean of the values in the specified axis
-•	Mean: The average value
+The average value
+
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Median
-•	Median: The midpoint value
-•	Return the median of the values in the specified axis
+The midpoint value
+
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Mode
-•	Mode: The most common value
-•	Returns the mode of the values in the specified axis
+The most common value
+
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Unique
-Returns the min of the values in the specified axis
+Returns the min of the values within the indicated hub
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
 ### Slicing
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
 
-## Module Rando,
+## Module Random
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
+
 ## Datetime
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
+
 ## File txt
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/public/Image/Data%20Frame.png)
