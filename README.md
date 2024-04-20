@@ -33,7 +33,7 @@ Import libraries that are needed
 ### Object Series
 A Pandas Series is like a column in a table. It is a one-dimensional array holding data of any type. It is similar to a table column and can be considered a fixed-size dictionary, where the index labels map to the corresponding values.
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/07430ab4-b7f0-470b-81f7-cd5845839d05)
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/Pandasseries.png) 
 
 #### Data Slicing
 Slicing allows to selection of specific rows or columns from the data structure based on their labels or positions.
