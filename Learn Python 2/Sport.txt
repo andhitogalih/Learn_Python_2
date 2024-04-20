@@ -1,0 +1,4 @@
+Sport, Time
+Badminton, 1
+Chess,1
+Voli, 2
