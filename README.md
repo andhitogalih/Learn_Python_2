@@ -22,13 +22,14 @@ Dimensions of an array in NumPy are also called the Rank of an Array. Here, we w
 * Create a 2-Dimensional NumPy array and check the dimensions
 * Create a 3-Dimensional NumPy array and check the dimensions
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/c7410d6a-e177-4965-97c2-ea157a946ea4)
-
-From the example above, we call 7 dimensions with the expression 'ndmin=7' where the number 7 can be filled as desired.
-
 ## Pandas
-Pandas is a Python library for efficient data manipulation and analysis. It simplifies data cleaning, transformation, and analysis tasks with its DataFrame and Series data structures. Pandas are widely used in data science to handle structured data, perform statistical operations, and work with various file formats.
+Pandas (Python for Data Analysis) is a Python library that focuses on data analysis processes such as data manipulation, data preparation, and data cleaning. Pandas provides high-level data structures and functions to make working with structured/tabular data faster, easier, and expressive.
 
+
+Pandas has two objects, namely series and data frame
+
+
+Import libraries that are needed
 ### Object Series
 A Pandas Series is like a column in a table. It is a one-dimensional array holding data of any type. It is similar to a table column and can be considered a fixed-size dictionary, where the index labels map to the corresponding values.
 
