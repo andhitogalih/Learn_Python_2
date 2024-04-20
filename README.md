@@ -6,6 +6,7 @@ This repository is designed to make learning Python for students easy and enjoya
 * [Numpy]
 * [Pandas (Series)]
 * [Pandas (Data Frame)]
+* [Module Random] 
 * [Datetime]
 * [File txt]
 
@@ -14,6 +15,8 @@ This repository is designed to make learning Python for students easy and enjoya
 ## Numpy
 NumPy (Numerical Python) is a Python library that focuses on scientific computing. NumPy has the ability to create N-dimensional array objects, which are similar to lists in Python. The advantage of NumPy arrays compared to lists in Python is that they consume less memory and run time faster. NumPy also makes it easier for us in Linear Algebra, especially operations on Vectors (1-d arrays) and Matrix (2-d arrays).
 
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/Pandasseries.png) 
+
 ### Dimension
 Dimensions of an array in NumPy are also called the Rank of an Array. Here, we will see how to check how many dimensions an array has used with the numpy.ndarray.ndim. With that, we will also see some examples of creating 0D, 1D, 2D, and 3D arrays:
 
@@ -21,6 +24,8 @@ Dimensions of an array in NumPy are also called the Rank of an Array. Here, we w
 * Create a 1-Dimensional NumPy array and check the dimensions
 * Create a 2-Dimensional NumPy array and check the dimensions
 * Create a 3-Dimensional NumPy array and check the dimensions
+  
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/Pandasseries.png) 
 
 ## Pandas
 Pandas (Python for Data Analysis) is a Python library that focuses on data analysis processes such as data manipulation, data preparation, and data cleaning. Pandas provides high-level data structures and functions to make working with structured/tabular data faster, easier, and expressive.
@@ -36,15 +41,20 @@ A Pandas Series is like a column in a table. It is a one-dimensional array holdi
 ![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/Pandasseries.png) 
 
 #### Data Slicing
-Slicing allows to selection of specific rows or columns from the data structure based on their labels or positions.
+Slicing is the extraction of a part of a string, list, or tuple. It enables users to access the specific range of elements by mentioning their indices.
 
 Explicit and Implicit Data Slicing
-Explicit data slicing retrieves a subset of data with reference to an explicitly specified index, such as an index range or a specific index. An implicit data slicing retrieves a subset of data with reference to an implicitly specified index, such as a specific rule or condition where the last index is not included in the resulting subset of data.
+Using an explicitly defined index, such as an index range or a specific index, explicit data slicing gets a subset of data. When the last index is excluded from the resultant subset of data, 
 
-![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/08f00791-25fb-4e4e-8539-fd32026c6e9c)
+
+implicit data slicing retrieves a subset of data with reference to an implicitly specified index, such as a particular rule or condition.
+
+![alt text](https://github.com/andhitogalih/Learn_Python_2/blob/main/Slicing.png) 
 
 #### Loc &Iloc
-Loc calls an explicit index, and an Iloc calls an implicit index. Loc and iloc are used to remove inconsistencies in data slicing.
+Loc is short for location. As the name implies, it is used to select data at a specific location only.
+
+The iloc property gets, or sets, the value(s) of the specified indexes. Specify both row and column with an index.
 
 ![image](https://github.com/MaulitaNurSejati/NumPy_Pandas/assets/135823289/1cc305e2-a131-40ed-b70f-8178661473e3)
  
@@ -129,8 +139,11 @@ Returns a description summary for each column in the DataFrame
 •	Mode: The most common value
 •	Returns the mode of the values in the specified axis
 
-### Min
+### Unique
 Returns the min of the values in the specified axis
 
-### Max
-Return the max of the values in the specified axis
+### Slicing
+
+## Module Rando,
+## Datetime
+## File txt
